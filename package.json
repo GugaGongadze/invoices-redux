@@ -1,0 +1,33 @@
+{
+  "name": "invoices-redux",
+  "version": "1.0.0",
+  "description": "Invoices app done with redux",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js --ignore client"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GugaGongadze/invoices-redux.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GugaGongadze/invoices-redux/issues"
+  },
+  "homepage": "https://github.com/GugaGongadze/invoices-redux#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb-base": "^13.0.0",
+    "eslint-plugin-import": "^2.13.0"
+  },
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.18.3"
+  }
+}
